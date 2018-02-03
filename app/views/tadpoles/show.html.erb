@@ -6,7 +6,7 @@
 
 
   <%= form_for @tadpole, :url => {:controller => "tadpoles_controller", :action => "metamorphose"} do |f|%>
-    <%= f.submit_tag 'Become a frog'%>
+    <%= f.submit 'Become a frog'%>
   <% end %>
 
   <p>Color: <%= @tadpole.color %></p>
